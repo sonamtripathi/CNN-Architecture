@@ -14,3 +14,4 @@ We observe that training the models with overlap pooling find it slightly more d
 5. Reducing Overfitting by Dropout:Here we have used a popular technique called "Dropout". It consist of setting to zero the output of each neuron with probability 0.5. 
 The neurons which are "dropped out" in this way do not contribute to forward pass and do not participate in back propagation. This technique reduces complex co-adaptations of neurons, since a neuron cannot rely on a particular neuron. It is thus forced a neuron to learn more robust features that are useful in conjunction with many different random subsets of other neurons.
 We use Dropout in the first two fully-connected layers. Without dropout, our network exhibits substantial overfitting.
+
